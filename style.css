@@ -1,3 +1,75 @@
-h1 {
-    color: #0066FF;
+/* style for main body */
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #00ff00;
+    background-color: #000000;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    margin: 5px 0px 20px 0px;
+    padding: 0px;
+}
+
+.icon {
+    float: right;
+    margin-left: 15px;
+}
+
+.profile {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+/* links */
+
+a:link {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CCFFCC;
+    text-decoration: none;
+}
+
+a:active {
+    color: #CCFFCC;
+    text-decoration: none;
+}
+
+/* forms */
+
+input[type=text], textarea {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #00ff00;
+    background-color: #000000;
+    border: none;
+}
+
+textarea {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #00ff00;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    height: 200px;
+    width: 600px;
 }
